@@ -109,7 +109,7 @@ computer_vision_app/
 
 ## 📄 Licença
 
-Este projeto faz parte da jornada **NLW 2026**. Sinta-se à vontade para usar e modificar para fins de aprendizado.
+Este projeto faz parte da jornada **NLW Operator**. Sinta-se à vontade para usar e modificar para fins de aprendizado.
 
 ---
 
