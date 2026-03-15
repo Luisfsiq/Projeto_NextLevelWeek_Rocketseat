@@ -1,69 +1,68 @@
-# 🚀 NLW Operator — Trilha Python: Visão Computacional
+# 🚀 Rockit Vision — AI Hand Gesture Recognition
 
-Bem-vindo ao repositório do projeto **NLW Operator Visão Computacional**. Este workspace contém uma coleção de projetos e experimentos desenvolvidos durante a trilha Python de Visão Computacional da NLW Operator da Rocketseat, focando em Deep Learning, Reconhecimento de Gestos em tempo real e técnicas avançadas de Visão Computacional.
-
----
-
-## 📂 Estrutura do Projeto
-
-Este monorepo está dividido em três módulos principais, um para cada aula:
-
-### 1. [🧠 LeNet-5 MNIST](./lenet)
-Uma implementação moderna da clássica arquitetura **LeNet-5** utilizando **PyTorch** para classificação de dígitos manuscritos.
-- **Tecnologias principais**: PyTorch, Jupyter, Matplotlib.
-- **Destaques**: Camadas CNN customizadas, visualização de mapas de características (feature maps), análise de erros no dataset MNIST.
-
-### 2. [🔬 Recognition System & Lab](./recog_system)
-A "sala de máquinas" onde os modelos de gestos são treinados, junto com notebooks exploratórios para modelos SOTA (State of the Art).
-- **Tecnologias principais**: Scikit-Learn, MediaPipe, YOLO, CLIPSeg, Gemini Vision.
-- **Destaques**: Pipeline de coleta de dados customizado, scripts de treinamento de modelo e experimentação com detecção de objetos e segmentação.
-- **⚠️ Requisito**: Necessário baixar modelos do MediaPipe (veja o README do módulo).
-
-
-### 3. [🖐️ Computer Vision App](./computer_vision_app)
-Uma aplicação web de alta performance construída com **FastHTML** e **MediaPipe** para reconhecimento de gestos faciais/mãos em tempo real via WebSockets.
-- **Tecnologias principais**: FastHTML, OpenCV, MediaPipe, Scikit-Learn.
-- **Destaques**: Processamento de vídeo de baixa latência, interface interativa, monitoramento de FPS em tempo real.
-- **⚠️ Requisito**: Necessário baixar modelos do MediaPipe (veja o README do módulo).
-
-
+Este repositório contém o projeto de **Visão Computacional** desenvolvido durante a trilha **Python da NLW Operator da Rocketseat**. O sistema utiliza técnicas avançadas de processamento de imagem e Deep Learning para reconhecer gestos manuais em tempo real.
 
 ---
 
-## 🛠️ Stack Tecnológica Global
+## 🖐️ Sobre o Projeto
+
+O **Rockit Vision** é uma aplicação web de alta performance que integra **FastHTML** e **MediaPipe** para processamento de vídeo via WebSockets. Ele permite a detecção de mãos e o reconhecimento de gestos faciais/manuais com baixíssima latência, exibindo informações detalhadas e visualizações processadas diretamente no navegador.
+
+### Principais Funcionalidades
+- **Detecção de Mãos em Tempo Real**: Localização precisa de landmarks das mãos.
+- **Reconhecimento de Gestos**: Classificação inteligente de gestos capturados via webcam.
+- **Processamento via WebSockets**: Comunicação bidirecional eficiente para frames de vídeo.
+- **Controle de Qualidade Adaptativo**: Ajuste dinâmico da qualidade da imagem para otimização de banda.
+- **Interface Moderna**: Desenvolvida com FastHTML para uma experiência de usuário fluida.
+
+---
+
+## 🛠️ Stack Tecnológica
 
 - **Linguagem**: ![Python](https://img.shields.io/badge/Python-3.14+-3776AB?style=flat-square&logo=python&logoColor=white)
 - **Gerenciador de Pacotes**: ![uv](https://img.shields.io/badge/uv-Package%20Manager-purple?style=flat-square)
-- **Frameworks**: FastHTML, PyTorch, MediaPipe, OpenCV, Scikit-Learn.
-- **AI/ML**: YOLO-S, CLIPSeg, Google Gemini API.
+- **Web Framework**: [FastHTML](https://fastht.ml/)
+- **Visão Computacional**: [OpenCV](https://opencv.org/), [MediaPipe](https://google.github.io/mediapipe/)
+- **Machine Learning**: Scikit-Learn
 
 ---
 
-## 🚀 Como Começar
+## 🚀 Como Executar
 
 ### Pré-requisitos
+Certifique-se de ter o [uv](https://github.com/astral-sh/uv) instalado no seu sistema.
 
-Certifique-se de ter o [uv](https://github.com/astral-sh/uv) instalado. Ele é utilizado em todos os módulos para um gerenciamento de dependências rápido e confiável.
-
-### Instalação
+### Instalação e Execução
 
 1. **Clone o repositório**:
    ```bash
-   git clone <repository-url>
-   cd nlw-2026-computer-vision
+   git clone https://github.com/Luisfsiq/Projeto_NextLevelWeek_Rocketseat.git
+   cd Projeto_NextLevelWeek_Rocketseat
    ```
 
-2. **Explore os Módulos**:
-   Cada subpasta possui seu próprio `pyproject.toml` e ambiente. Navegue até um módulo específico para começar:
+2. **Entre na pasta da aplicação**:
    ```bash
    cd computer_vision_app
-   uv sync
    ```
+
+3. **Sincronize as dependências e execute**:
+   ```bash
+   uv run app.py
+   ```
+
+4. **Acesse no navegador**:
+   Abra `http://localhost:5001` (ou a porta indicada no terminal) para ver a aplicação em funcionamento.
 
 ---
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins educacionais durante o **NLW Operator** da Rocketseat.
+Este projeto foi desenvolvido para fins educacionais durante a **NLW Operator** da Rocketseat.
 
-*Feito com ❤️ por Arthur Kamienski*
+---
+
+## 👤 Autor
+
+Desenvolvido por **Luís Felipe** durante a NLW Operator.
+
+*Feito com 🚀 e Visão Computacional*
