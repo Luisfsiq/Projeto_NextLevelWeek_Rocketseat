@@ -63,6 +63,6 @@ Este projeto foi desenvolvido para fins educacionais durante a **NLW Operator** 
 
 ## 👤 Autor
 
-Desenvolvido por **Luís Felipe** durante a NLW Operator.
+Desenvolvido por **Luís Felipe** durante a NLW Operator
 
 *Feito com 🚀 e Visão Computacional*
